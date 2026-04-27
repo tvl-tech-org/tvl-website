@@ -14,8 +14,8 @@
   <text x="20" y="63" font-family="monospace" font-size="7" fill="#fff">de activitate?</text>
 
   
-  <rect x="100" y="74" width="168" height="22" fill="#FF4931"></rect>
-  <text x="108" y="88" font-family="monospace" font-size="7" fill="#fff">Producție industrială, Cluj</text>
+  <rect x="68" y="74" width="132" height="22" fill="#FF4931"></rect>
+  <text x="76" y="88" font-family="monospace" font-size="7" fill="#fff">Producție industrială, Cluj</text>
 
   
   <rect x="12" y="104" width="190" height="14" fill="#1a1a1a" stroke="#262626"></rect>
@@ -36,7 +36,7 @@
   
   <rect x="208" y="32" width="60" height="64" fill="#141414" stroke="#262626"></rect>
   <text x="214" y="42" font-family="monospace" font-size="5" fill="#666">GHIDURI</text>
-  <text x="214" y="42" font-family="monospace" font-size="5" fill="#666">SCANATE</text>
+  <text x="214" y="49" font-family="monospace" font-size="5" fill="#666">SCANATE</text>
   <text x="214" y="62" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="14" fill="#FF4931">2.847</text>
   <text x="214" y="78" font-family="monospace" font-size="5" fill="#666">PROGRAME</text>
   <text x="214" y="90" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="14" fill="#fff">412</text>
