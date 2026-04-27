@@ -135,7 +135,7 @@
       'proc.title.b': 'producție',
       'proc.title.c': '. În iterații scurte.',
       'proc.s1.title': 'Ascultăm',
-      'proc.s1.body': 'Două săptămâni de discovery. Cartografiem operațiunea ta, identificăm bottleneck-ul și scriem briefingul împreună.',
+      'proc.s1.body': 'Două săptămâni de explorare. Cartografiem operațiunea ta, identificăm blocajul și scriem specificația împreună.',
       'proc.s2.title': 'Construim',
       'proc.s2.body': 'O echipă multidisciplinară — ingineri, designeri, ML scientists — livrează în iterații scurte pe care le poți vedea și folosi imediat.',
       'proc.s3.title': 'Livrăm',
