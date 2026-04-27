@@ -27,7 +27,11 @@ function ArticleHero({ article }) {
         opacity: 0.10,
         pointerEvents: 'none',
       }} />
-      <div style={{ maxWidth: 880, margin: '0 auto', position: 'relative', zIndex: 2 }}>
+      <div style={{
+        maxWidth: 1200, margin: '0 auto 48px auto',
+        position: 'relative', zIndex: 2,
+        display: 'flex', alignItems: 'center', gap: 24, flexWrap: 'wrap',
+      }}>
         <a href="blog.html" style={{
           display: 'inline-flex', alignItems: 'center', gap: 8,
           fontFamily: 'Open Sans, sans-serif',
@@ -35,7 +39,6 @@ function ArticleHero({ article }) {
           textTransform: 'uppercase', letterSpacing: '0.16em',
           color: '#777',
           textDecoration: 'none',
-          marginBottom: 32,
           transition: 'color 200ms',
         }}
         onMouseEnter={e => e.currentTarget.style.color = '#FF4931'}
@@ -46,15 +49,15 @@ function ArticleHero({ article }) {
           Înapoi la blog
         </a>
         <div style={{
-          display: 'inline-block',
           background: '#FF4931',
           color: '#fff',
           padding: '6px 12px',
           fontFamily: 'Open Sans, sans-serif',
           fontSize: 11, fontWeight: 700,
           textTransform: 'uppercase', letterSpacing: '0.16em',
-          marginBottom: 32,
         }}>{article.category}</div>
+      </div>
+      <div style={{ maxWidth: 880, margin: '0 auto', position: 'relative', zIndex: 2 }}>
         <h1 style={{
           fontFamily: "'Open Sans', sans-serif",
           fontSize: 'clamp(40px, 6vw, 72px)',
