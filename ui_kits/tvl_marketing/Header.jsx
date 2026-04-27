@@ -28,7 +28,7 @@ function Header({ onCtaClick }) {
       display: 'flex', alignItems: 'center', justifyContent: 'space-between',
     }}>
       <div className="tvl-header-left-gap" style={{ display: 'flex', alignItems: 'center', gap: 48 }}>
-        <a href="#" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
+        <a href="index.html" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
           <img src="../../assets/logo-mark.svg" width="32" height="32" alt="TVL Tech" />
           <span style={{
             fontFamily: "'Open Sans', sans-serif",
