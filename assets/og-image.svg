@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1200 630" width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#000"/>
+
+  <g opacity="0.08" fill="#FF4931">
+    <rect x="1060" y="60" width="90" height="90"/>
+    <rect x="960" y="170" width="40" height="40"/>
+    <rect x="1080" y="240" width="50" height="50"/>
+    <rect x="1140" y="500" width="40" height="40"/>
+    <rect x="60" y="500" width="70" height="70"/>
+    <rect x="170" y="540" width="30" height="30"/>
+  </g>
+
+  <g transform="translate(80, 80) scale(1.0)">
+    <path d="M105.912 54.5831L66.1684 14.8391V14.8271H14.0645V66.9311L53.8204 106.687H105.924L105.912 54.5831ZM103.104 54.5831H66.1684V17.6591L103.104 54.5831ZM16.0685 16.8191H64.1764V54.5831H53.8325V64.9271H16.0685V16.8191ZM64.1764 56.5751V64.9271H55.8245V56.5751H64.1764ZM16.8845 66.9191H53.8325V103.855L16.8845 66.9191ZM103.932 104.683H55.8125V66.9191H66.1564V56.5751H103.932V104.683Z" fill="#FF4931"/>
+  </g>
+
+  <text x="80" y="330" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="22" letter-spacing="6" fill="#FF4931">SOFTWARE CUSTOM · AI · BLOCKCHAIN</text>
+
+  <text x="80" y="450" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="900" font-size="128" fill="#fff" letter-spacing="-3">TVL.TECH</text>
+
+  <text x="80" y="530" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="400" font-size="30" fill="#C9C7C2">Studio de software · AI · Blockchain · VR</text>
+</svg>
