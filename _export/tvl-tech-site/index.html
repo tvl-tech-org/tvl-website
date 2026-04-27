@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TVL Tech — Rezolvăm probleme cu software</title>
+
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --tvl-orange: #FF4931;
+      --tvl-orange-red: #9E2D1E;
+      --tvl-black: #000;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Open Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    ::selection { background: #FF4931; color: #fff; }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #000; }
+    ::-webkit-scrollbar-thumb { background: #2A2A2A; }
+    ::-webkit-scrollbar-thumb:hover { background: #FF4931; }
+
+    /* ───────── Mobile responsive overrides ───────── */
+    @media (max-width: 900px) {
+      /* Generic section padding */
+      section { padding-left: 20px !important; padding-right: 20px !important; padding-top: 72px !important; padding-bottom: 72px !important; }
+      footer { padding-left: 20px !important; padding-right: 20px !important; }
+      header { padding: 14px 20px !important; }
+
+      /* Header: hide desktop nav + lang divider rules; mobile menu rendered by component */
+      .tvl-desktop-nav { display: none !important; }
+      .tvl-desktop-cta { display: none !important; }
+      .tvl-mobile-burger { display: flex !important; }
+      .tvl-header-left-gap { gap: 0 !important; }
+
+      /* Hero */
+      .tvl-hero { min-height: auto !important; padding: 88px 20px 56px !important; }
+      .tvl-hero h1 { font-size: clamp(56px, 14vw, 84px) !important; }
+      .tvl-hero p { font-size: 17px !important; margin-top: 24px !important; }
+      .tvl-hero-bottom { flex-direction: column !important; align-items: flex-start !important; gap: 16px !important; margin-top: 56px !important; }
+      .tvl-hero-bottom > div:first-child { font-size: 16px !important; }
+      .tvl-hero-network { width: 280px !important; height: 220px !important; opacity: 0.35 !important; }
+      .tvl-hero-buttons button { padding: 16px 22px !important; font-size: 12px !important; }
+
+      /* ProblemSolution rows: collapse 4-col grid → single column */
+      .tvl-ps-row { grid-template-columns: 1fr !important; gap: 12px !important; padding: 28px 0 !important; }
+      .tvl-ps-row .tvl-ps-num { font-size: 28px !important; }
+      .tvl-ps-row .tvl-ps-arrow { display: none !important; }
+      .tvl-ps-row .tvl-ps-problem-text { font-size: 20px !important; }
+      .tvl-ps-row .tvl-ps-solution-text { font-size: 22px !important; }
+
+      /* Projects rows: stack everything */
+      .tvl-proj-row { grid-template-columns: 1fr !important; gap: 24px !important; padding: 40px 0 !important; }
+      .tvl-proj-illus { width: 100% !important; height: auto !important; aspect-ratio: 320/228; }
+      .tvl-proj-illus-wrap { width: 100% !important; }
+      .tvl-proj-header { grid-template-columns: 1fr !important; gap: 20px !important; margin-bottom: 40px !important; }
+
+      /* AntiPromises */
+      .tvl-ap-header { grid-template-columns: 1fr !important; gap: 20px !important; margin-bottom: 48px !important; }
+      .tvl-ap-row { grid-template-columns: 64px 32px 1fr !important; gap: 16px !important; padding: 32px 0 !important; }
+      .tvl-ap-row .tvl-ap-num { font-size: 48px !important; }
+      .tvl-ap-row .tvl-ap-x { font-size: 32px !important; }
+      .tvl-ap-row h3 { grid-column: 1 / -1; font-size: 22px !important; padding-top: 4px !important; }
+      .tvl-ap-row p { grid-column: 1 / -1; font-size: 15px !important; padding-top: 0 !important; }
+
+      /* Process */
+      .tvl-process-grid { grid-template-columns: 1fr !important; }
+      .tvl-process-grid > div { min-height: auto !important; padding: 32px 24px !important; }
+      .tvl-process-grid > div > div:nth-child(2) { font-size: 28px !important; }
+
+      /* Testimonials */
+      .tvl-tm-body { grid-template-columns: 1fr !important; gap: 32px !important; min-height: auto !important; }
+      .tvl-tm-nav { align-items: flex-start !important; flex-direction: row !important; justify-content: space-between !important; width: 100%; }
+
+      /* Blog */
+      .tvl-blog-grid { grid-template-columns: 1fr !important; }
+      .tvl-blog-card-large { min-height: auto !important; }
+      .tvl-blog-card-large .tvl-blog-cover { height: 200px !important; }
+      .tvl-blog-card-large h3 { font-size: 24px !important; }
+
+      /* CTA */
+      .tvl-cta h2 { font-size: clamp(48px, 12vw, 72px) !important; }
+      .tvl-cta p { font-size: 17px !important; margin-top: 20px !important; }
+      .tvl-cta-decor { display: none !important; }
+
+      /* Footer */
+      .tvl-footer-grid { grid-template-columns: 1fr 1fr !important; gap: 32px !important; }
+      .tvl-footer-grid > div:first-child { grid-column: 1 / -1; }
+      .tvl-footer-grid > div:last-child { grid-column: 1 / -1; }
+      .tvl-footer-bottom { flex-direction: column !important; align-items: flex-start !important; }
+
+      /* Modal */
+      .tvl-modal-card { padding: 32px 24px !important; }
+      .tvl-modal-card h3 { font-size: 32px !important; }
+
+      /* Generic h2 cap on mobile */
+      .tvl-section-h2 { font-size: clamp(36px, 9vw, 56px) !important; }
+    }
+
+    @media (max-width: 480px) {
+      .tvl-hero h1 { font-size: clamp(44px, 13vw, 64px) !important; }
+      .tvl-section-h2 { font-size: clamp(32px, 9vw, 44px) !important; }
+      .tvl-cta h2 { font-size: clamp(40px, 11vw, 56px) !important; }
+      .tvl-footer-grid { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script src="i18n.js"></script>
+  <script type="text/babel" src="Reveal.jsx"></script>
+  <script type="text/babel" src="Header.jsx"></script>
+  <script type="text/babel" src="FloatingSquares.jsx"></script>
+  <script type="text/babel" src="Hero.jsx"></script>
+  <script src="articles.js"></script>
+  <script type="text/babel" src="ProblemSolution.jsx"></script>
+  <script type="text/babel" src="Projects.jsx"></script>
+  <script type="text/babel" src="Process.jsx"></script>
+  <script type="text/babel" src="AntiPromises.jsx"></script>
+  <script type="text/babel" src="Testimonials.jsx"></script>
+  <script type="text/babel" src="Blog.jsx"></script>
+  <script type="text/babel" src="CTA.jsx"></script>
+  <script type="text/babel" src="Footer.jsx"></script>
+  <script type="text/babel" src="ContactModal.jsx"></script>
+  <script type="text/babel" src="App.jsx"></script>
+</body>
+</html>

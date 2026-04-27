@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200">
+  
+  <rect width="280" height="200" fill="#0a0a0a"></rect>
+  <rect x="0" y="0" width="280" height="20" fill="#141414"></rect>
+  <text x="10" y="13" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="8" fill="#fff">QUOTE ENGINE</text>
+  <text x="270" y="13" text-anchor="end" font-family="monospace" font-size="6" fill="#FF4931">● procesează 12 cereri</text>
+
+  
+  <text x="10" y="34" font-family="monospace" font-size="5" fill="#666">CERERI EMAIL</text>
+  <rect x="10" y="38" width="58" height="14" fill="#141414" stroke="#262626"></rect>
+  <rect x="10" y="38" width="2" height="14" fill="#FF4931"></rect>
+  <text x="16" y="47" font-family="monospace" font-size="5" fill="#fff">RFQ-8421</text>
+
+  <rect x="10" y="54" width="58" height="14" fill="#141414" stroke="#262626"></rect>
+  <rect x="10" y="54" width="2" height="14" fill="#FF4931" opacity="0.6"></rect>
+  <text x="16" y="63" font-family="monospace" font-size="5" fill="#ccc">RFQ-8420</text>
+
+  <rect x="10" y="70" width="58" height="14" fill="#141414" stroke="#262626"></rect>
+  <text x="16" y="79" font-family="monospace" font-size="5" fill="#888">RFQ-8419</text>
+
+  <rect x="10" y="86" width="58" height="14" fill="#141414" stroke="#262626"></rect>
+  <text x="16" y="95" font-family="monospace" font-size="5" fill="#888">RFQ-8418</text>
+
+  <text x="10" y="112" font-family="monospace" font-size="5" fill="#666">+ 847 în coadă</text>
+
+  
+  <rect x="92" y="56" width="80" height="50" fill="#1a1a1a" stroke="#FF4931"></rect>
+  <text x="132" y="68" text-anchor="middle" font-family="monospace" font-size="5" fill="#FF4931">ORCHESTRATOR</text>
+  <text x="132" y="80" text-anchor="middle" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="9" fill="#fff">Gemini 2.5</text>
+  <text x="132" y="92" text-anchor="middle" font-family="monospace" font-size="5" fill="#888">routes → SAP code</text>
+  <line x1="98" y1="100" x2="166" y2="100" stroke="#262626"></line>
+  <text x="132" y="104" text-anchor="middle" font-family="monospace" font-size="5" fill="#FF4931">12 active calls</text>
+
+  
+  <line x1="68" y1="62" x2="92" y2="68" stroke="#FF4931" stroke-width="0.6"></line>
+  <polygon points="92,68 88,66 88,70" fill="#FF4931"></polygon>
+  <line x1="68" y1="78" x2="92" y2="78" stroke="#FF4931" stroke-width="0.6" opacity="0.6"></line>
+  <polygon points="92,78 88,76 88,80" fill="#FF4931" opacity="0.6"></polygon>
+  <line x1="68" y1="92" x2="92" y2="88" stroke="#FF4931" stroke-width="0.6" opacity="0.4"></line>
+
+  
+  <line x1="172" y1="68" x2="200" y2="42" stroke="#FF4931" stroke-width="0.6"></line>
+  <polygon points="200,42 196,42 198,46" fill="#FF4931"></polygon>
+  <line x1="172" y1="78" x2="200" y2="78" stroke="#FF4931" stroke-width="0.6"></line>
+  <polygon points="200,78 196,76 196,80" fill="#FF4931"></polygon>
+  <line x1="172" y1="92" x2="200" y2="116" stroke="#FF4931" stroke-width="0.6"></line>
+  <polygon points="200,116 198,112 196,116" fill="#FF4931"></polygon>
+
+  <rect x="200" y="32" width="68" height="22" fill="#141414" stroke="#262626"></rect>
+  <text x="206" y="42" font-family="monospace" font-size="5" fill="#888">AGENT</text>
+  <text x="206" y="50" font-family="monospace" font-size="6" fill="#fff">cabluri &amp; ţevi</text>
+
+  <rect x="200" y="68" width="68" height="22" fill="#141414" stroke="#262626"></rect>
+  <text x="206" y="78" font-family="monospace" font-size="5" fill="#888">AGENT</text>
+  <text x="206" y="86" font-family="monospace" font-size="6" fill="#fff">scule electrice</text>
+
+  <rect x="200" y="104" width="68" height="22" fill="#141414" stroke="#262626"></rect>
+  <text x="206" y="114" font-family="monospace" font-size="5" fill="#888">AGENT</text>
+  <text x="206" y="122" font-family="monospace" font-size="6" fill="#fff">consumabile</text>
+
+  
+  <rect x="10" y="138" width="258" height="50" fill="#0f0f0f" stroke="#1f1f1f"></rect>
+  <text x="16" y="150" font-family="monospace" font-size="5" fill="#666">DATA LAKE — GOOGLE CLOUD</text>
+
+  <rect x="16" y="156" width="56" height="24" fill="#141414" stroke="#262626"></rect>
+  <text x="44" y="166" text-anchor="middle" font-family="monospace" font-size="5" fill="#FF4931">SAP</text>
+  <text x="44" y="174" text-anchor="middle" font-family="monospace" font-size="5" fill="#888">847k SKU</text>
+
+  <rect x="76" y="156" width="56" height="24" fill="#141414" stroke="#262626"></rect>
+  <text x="104" y="166" text-anchor="middle" font-family="monospace" font-size="5" fill="#FF4931">ORACLE APEX</text>
+  <text x="104" y="174" text-anchor="middle" font-family="monospace" font-size="5" fill="#888">contracte</text>
+
+  <rect x="136" y="156" width="56" height="24" fill="#141414" stroke="#262626"></rect>
+  <text x="164" y="166" text-anchor="middle" font-family="monospace" font-size="5" fill="#FF4931">TMS</text>
+  <text x="164" y="174" text-anchor="middle" font-family="monospace" font-size="5" fill="#888">livrări</text>
+
+  <rect x="196" y="156" width="68" height="24" fill="#141414" stroke="#262626"></rect>
+  <text x="230" y="166" text-anchor="middle" font-family="monospace" font-size="5" fill="#FF4931">E-COMMERCE</text>
+  <text x="230" y="174" text-anchor="middle" font-family="monospace" font-size="5" fill="#888">comenzi</text>
+</svg>

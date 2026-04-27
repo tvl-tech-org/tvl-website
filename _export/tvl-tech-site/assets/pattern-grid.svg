@@ -1,0 +1,13 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <pattern id="chevronGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="24" height="24" fill="#FF4931"></rect>
+      <rect x="36" y="36" width="24" height="24" fill="#FF4931"></rect>
+      <rect x="36" y="0" width="8" height="8" fill="#FF4931"></rect>
+      <rect x="0" y="36" width="8" height="8" fill="#FF4931"></rect>
+    </pattern>
+  </defs>
+  <rect width="240" height="240" fill="#000"></rect>
+  <rect width="240" height="240" fill="url(#chevronGrid)"></rect>
+</svg>

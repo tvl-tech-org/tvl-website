@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200">
+  
+  <rect width="280" height="200" fill="#0a0a0a"></rect>
+  <rect x="0" y="0" width="280" height="20" fill="#141414"></rect>
+  <text x="10" y="13" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="8" fill="#fff">EBSI</text>
+  <text x="40" y="13" font-family="monospace" font-size="6" fill="#666">— European Blockchain Services</text>
+  <circle cx="262" cy="10" r="2" fill="#FF4931"></circle>
+  <text x="258" y="13" font-family="monospace" font-size="6" fill="#FF4931">live</text>
+
+  
+  <text x="10" y="34" font-family="monospace" font-size="5" fill="#666">REȚEA EBSI · 27 NODURI</text>
+
+  
+  <line x1="60" y1="68" x2="105" y2="50" stroke="#FF4931" stroke-width="0.4" opacity="0.6"></line>
+  <line x1="60" y1="68" x2="100" y2="100" stroke="#FF4931" stroke-width="0.4" opacity="0.6"></line>
+  <line x1="60" y1="68" x2="35" y2="120" stroke="#FF4931" stroke-width="0.4" opacity="0.6"></line>
+  <line x1="105" y1="50" x2="100" y2="100" stroke="#FF4931" stroke-width="0.4" opacity="0.4"></line>
+  <line x1="105" y1="50" x2="135" y2="80" stroke="#FF4931" stroke-width="0.4" opacity="0.4"></line>
+  <line x1="100" y1="100" x2="135" y2="80" stroke="#FF4931" stroke-width="0.4" opacity="0.6"></line>
+  <line x1="100" y1="100" x2="80" y2="140" stroke="#FF4931" stroke-width="0.4" opacity="0.4"></line>
+  <line x1="35" y1="120" x2="80" y2="140" stroke="#FF4931" stroke-width="0.4" opacity="0.4"></line>
+  <line x1="80" y1="140" x2="125" y2="135" stroke="#FF4931" stroke-width="0.4" opacity="0.6"></line>
+
+  
+  <circle cx="60" cy="68" r="4" fill="#FF4931"></circle>
+  <text x="68" y="70" font-family="monospace" font-size="5" fill="#888">DE</text>
+
+  <circle cx="105" cy="50" r="3.5" fill="#FF4931" opacity="0.8"></circle>
+  <text x="113" y="52" font-family="monospace" font-size="5" fill="#888">FR</text>
+
+  <circle cx="100" cy="100" r="4.5" fill="#FF4931"></circle>
+  <text x="108" y="102" font-family="monospace" font-size="5" fill="#888">RO</text>
+
+  <circle cx="35" cy="120" r="3" fill="#FF4931" opacity="0.7"></circle>
+  <text x="20" y="122" font-family="monospace" font-size="5" fill="#888">ES</text>
+
+  <circle cx="135" cy="80" r="3" fill="#FF4931" opacity="0.7"></circle>
+  <text x="143" y="82" font-family="monospace" font-size="5" fill="#888">IT</text>
+
+  <circle cx="80" cy="140" r="3" fill="#FF4931" opacity="0.7"></circle>
+  <text x="58" y="142" font-family="monospace" font-size="5" fill="#888">PL</text>
+
+  <circle cx="125" cy="135" r="3" fill="#FF4931" opacity="0.7"></circle>
+  <text x="133" y="137" font-family="monospace" font-size="5" fill="#888">AT</text>
+
+  
+  <text x="10" y="165" font-family="monospace" font-size="5" fill="#666">TX/SEC</text>
+  <text x="10" y="180" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="13" fill="#fff">847</text>
+
+  <text x="60" y="165" font-family="monospace" font-size="5" fill="#666">CREDENȚIALE EMISE</text>
+  <text x="60" y="180" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="13" fill="#FF4931">2.4M</text>
+
+  
+  <rect x="158" y="32" width="112" height="156" fill="#0f0f0f" stroke="#FF4931" stroke-width="0.5"></rect>
+  <text x="164" y="44" font-family="monospace" font-size="5" fill="#FF4931">VERIFIABLE CREDENTIAL</text>
+  <line x1="164" y1="48" x2="264" y2="48" stroke="#262626"></line>
+
+  <text x="164" y="60" font-family="monospace" font-size="5" fill="#666">TYPE</text>
+  <text x="164" y="70" font-family="monospace" font-size="6" fill="#fff">DiplomaCredential</text>
+
+  <text x="164" y="86" font-family="monospace" font-size="5" fill="#666">ISSUER</text>
+  <text x="164" y="96" font-family="monospace" font-size="6" fill="#fff">did:ebsi:zUni…74Q</text>
+
+  <text x="164" y="112" font-family="monospace" font-size="5" fill="#666">SUBJECT</text>
+  <text x="164" y="122" font-family="monospace" font-size="6" fill="#fff">did:ebsi:zCit…91A</text>
+
+  <text x="164" y="138" font-family="monospace" font-size="5" fill="#666">SIGNATURE</text>
+  <rect x="164" y="142" width="100" height="3" fill="#FF4931" opacity="0.3"></rect>
+  <rect x="164" y="142" width="84" height="3" fill="#FF4931"></rect>
+
+  <text x="164" y="160" font-family="monospace" font-size="5" fill="#666">STATUS</text>
+  <circle cx="166" cy="170" r="2" fill="#FF4931"></circle>
+  <text x="172" y="173" font-family="monospace" font-size="6" fill="#FF4931">VERIFIED ON-CHAIN</text>
+
+  <text x="164" y="184" font-family="monospace" font-size="5" fill="#666">block #18,742,991</text>
+</svg>

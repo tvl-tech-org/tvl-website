@@ -1,0 +1,213 @@
+/* =========================================================
+   TVL Tech — Colors & Type tokens
+   Source: Manual de Identitate 31.07.2024
+   ========================================================= */
+
+/* ---------- Fonts ---------- */
+/* Display: Halunke (Elena Schneider). Anton (Google Fonts) is loaded
+   below as a free condensed-display fallback when Halunke isn't available. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Anton&family=Archivo+Black&display=swap');
+
+:root {
+  /* ---------- Brand palette (per PDF p.16) ---------- */
+  --tvl-orange:       #FF4931;   /* Pantone 171 C — primary */
+  --tvl-orange-red:   #9E2D1E;   /* Pantone 174 C — deep accent */
+  --tvl-black:        #000000;
+  --tvl-white:        #FFFFFF;
+
+  /* ---------- Extended neutrals (derived for UI use) ---------- */
+  --tvl-ink:          #0A0A0A;   /* near-black, slightly softer than pure */
+  --tvl-graphite:     #1A1A1A;
+  --tvl-charcoal:     #2A2A2A;
+  --tvl-slate:        #4A4A4A;
+  --tvl-stone:        #777777;
+  --tvl-fog:          #B5B5B5;
+  --tvl-mist:         #DCDCDC;
+  --tvl-paper:        #F4F2EE;   /* warm off-white for light surfaces */
+  --tvl-cream:        #FAF8F4;
+
+  /* ---------- Semantic foreground ---------- */
+  --fg-1:             var(--tvl-white);   /* on dark — primary */
+  --fg-2:             #C9C7C2;            /* on dark — secondary */
+  --fg-3:             #8A8884;            /* on dark — tertiary */
+  --fg-1-on-light:    var(--tvl-ink);
+  --fg-2-on-light:    var(--tvl-slate);
+  --fg-3-on-light:    var(--tvl-stone);
+  --fg-accent:        var(--tvl-orange);
+
+  /* ---------- Semantic background ---------- */
+  --bg-1:             var(--tvl-black);   /* default — brand is dark-first */
+  --bg-2:             var(--tvl-graphite);
+  --bg-3:             var(--tvl-charcoal);
+  --bg-light:         var(--tvl-paper);
+  --bg-accent:        var(--tvl-orange);
+  --bg-accent-deep:   var(--tvl-orange-red);
+
+  /* ---------- Borders ---------- */
+  --border-subtle:    rgba(255, 255, 255, 0.10);
+  --border-default:   rgba(255, 255, 255, 0.18);
+  --border-strong:    rgba(255, 255, 255, 0.40);
+  --border-accent:    var(--tvl-orange);
+  --border-on-light:  rgba(0, 0, 0, 0.12);
+
+  /* ---------- Type families ---------- */
+  --font-display:     'Anton', 'Halunke', 'Archivo Black', 'Impact', sans-serif;
+  --font-body:        'Open Sans', system-ui, -apple-system, sans-serif;
+  --font-mono:        'JetBrains Mono', 'SF Mono', 'Courier New', monospace;
+
+  /* ---------- Type scale (1.25 — major third) ---------- */
+  --text-xs:          0.75rem;    /* 12 */
+  --text-sm:          0.875rem;   /* 14 */
+  --text-base:        1rem;       /* 16 */
+  --text-md:          1.125rem;   /* 18 */
+  --text-lg:          1.375rem;   /* 22 */
+  --text-xl:          1.75rem;    /* 28 */
+  --text-2xl:         2.25rem;    /* 36 */
+  --text-3xl:         3rem;       /* 48 */
+  --text-4xl:         4rem;       /* 64 */
+  --text-5xl:         5.5rem;     /* 88 */
+  --text-6xl:         7.5rem;     /* 120 */
+
+  /* ---------- Weights (Open Sans loaded 300–800) ---------- */
+  --weight-light:     300;
+  --weight-regular:   400;
+  --weight-medium:    500;
+  --weight-semibold:  600;
+  --weight-bold:      700;
+  --weight-black:     800;
+
+  /* ---------- Line-heights ---------- */
+  --lh-tight:         1.0;
+  --lh-snug:          1.15;
+  --lh-normal:        1.45;
+  --lh-relaxed:       1.6;
+
+  /* ---------- Letter-spacing — brand uses wide tracking on caps ---------- */
+  --track-tight:      -0.02em;
+  --track-normal:     0;
+  --track-wide:       0.08em;
+  --track-wider:      0.16em;     /* social posts: "S I N G U L A R I T Y" */
+  --track-widest:     0.32em;
+
+  /* ---------- Spacing scale (4px base) ---------- */
+  --sp-1:  4px;
+  --sp-2:  8px;
+  --sp-3:  12px;
+  --sp-4:  16px;
+  --sp-5:  24px;
+  --sp-6:  32px;
+  --sp-7:  48px;
+  --sp-8:  64px;
+  --sp-9:  96px;
+  --sp-10: 128px;
+
+  /* ---------- Radii — brand is mostly rectilinear/sharp ---------- */
+  --radius-none:    0;
+  --radius-sm:      2px;
+  --radius-md:      4px;
+  --radius-lg:      8px;
+  --radius-pill:    999px;
+
+  /* ---------- Shadows — sparingly used, dark brand ---------- */
+  --shadow-soft:    0 2px 12px rgba(0, 0, 0, 0.30);
+  --shadow-lift:    0 12px 32px rgba(0, 0, 0, 0.45);
+  --shadow-glow:    0 0 0 1px var(--tvl-orange), 0 8px 32px rgba(255, 73, 49, 0.35);
+
+  /* ---------- Motion ---------- */
+  --ease-out:       cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out:    cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast:       120ms;
+  --dur-base:       220ms;
+  --dur-slow:       420ms;
+}
+
+/* =========================================================
+   Semantic type elements
+   ========================================================= */
+
+.type-display {
+  font-family: var(--font-display);
+  font-weight: 400;            /* Anton/Halunke ship a single weight */
+  font-size: var(--text-6xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--track-normal);
+  text-transform: uppercase;
+}
+
+.type-h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--text-5xl);
+  line-height: var(--lh-tight);
+  text-transform: uppercase;
+}
+
+.type-h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--text-4xl);
+  line-height: var(--lh-snug);
+  text-transform: uppercase;
+}
+
+.type-h3 {
+  font-family: var(--font-body);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-2xl);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--track-tight);
+}
+
+.type-eyebrow {
+  font-family: var(--font-body);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--track-wider);   /* signature spaced-caps */
+  color: var(--fg-accent);
+}
+
+.type-tracked-title {
+  /* The "S I N G U L A R I T Y" treatment from the brand book */
+  font-family: var(--font-display);
+  font-size: var(--text-4xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--track-widest);
+  text-transform: uppercase;
+}
+
+.type-lead {
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-lg);
+  line-height: var(--lh-relaxed);
+}
+
+.type-body {
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-base);
+  line-height: var(--lh-relaxed);
+}
+
+.type-small {
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-sm);
+  line-height: var(--lh-normal);
+}
+
+.type-caption {
+  font-family: var(--font-body);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-xs);
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+.type-mono {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: var(--track-normal);
+}

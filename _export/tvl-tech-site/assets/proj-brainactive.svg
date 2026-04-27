@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200">
+  
+  <rect width="280" height="200" fill="#0a0a0a"></rect>
+  <rect x="0" y="0" width="280" height="22" fill="#141414"></rect>
+  <text x="10" y="14" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="9" fill="#FF4931">BRAINACTIVE</text>
+  <text x="270" y="14" text-anchor="end" font-family="monospace" font-size="6" fill="#666">Brainy AI · online</text>
+
+  
+  <rect x="0" y="22" width="60" height="178" fill="#0f0f0f"></rect>
+  <text x="6" y="36" font-family="monospace" font-size="5" fill="#666">SECȚIUNI</text>
+
+  <rect x="6" y="42" width="48" height="2" fill="#FF4931"></rect>
+  <text x="6" y="54" font-family="monospace" font-size="6" fill="#fff">01 Profil</text>
+
+  <text x="6" y="68" font-family="monospace" font-size="6" fill="#666">02 Habits</text>
+  <text x="6" y="82" font-family="monospace" font-size="6" fill="#666">03 Brand</text>
+  <text x="6" y="96" font-family="monospace" font-size="6" fill="#666">04 Pricing</text>
+  <text x="6" y="110" font-family="monospace" font-size="6" fill="#666">05 Outro</text>
+
+  
+  <rect x="6" y="130" width="48" height="58" fill="#1a1a1a" stroke="#FF4931" stroke-width="0.5"></rect>
+  <circle cx="14" cy="142" r="3" fill="#FF4931"></circle>
+  <text x="22" y="144" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="6" fill="#fff">BRAINY</text>
+  <text x="10" y="156" font-family="monospace" font-size="5" fill="#999">Generează</text>
+  <text x="10" y="164" font-family="monospace" font-size="5" fill="#999">3 întrebări</text>
+  <text x="10" y="172" font-family="monospace" font-size="5" fill="#999">smart pentru</text>
+  <text x="10" y="180" font-family="monospace" font-size="5" fill="#999">acest target.</text>
+
+  
+  <text x="70" y="36" font-family="monospace" font-size="6" fill="#666">ÎNTREBARE 03 / 12</text>
+  <text x="70" y="52" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="9" fill="#fff">Cât de des cumperi cafea</text>
+  <text x="70" y="63" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="9" fill="#fff">de specialitate?</text>
+
+  
+  <rect x="70" y="74" width="200" height="16" fill="#141414" stroke="#262626"></rect>
+  <rect x="74" y="78" width="8" height="8" fill="#FF4931"></rect>
+  <text x="88" y="85" font-family="monospace" font-size="6" fill="#fff">Zilnic</text>
+  <text x="260" y="85" text-anchor="end" font-family="monospace" font-size="6" fill="#FF4931">42%</text>
+
+  <rect x="70" y="92" width="200" height="16" fill="#141414" stroke="#262626"></rect>
+  <rect x="74" y="96" width="8" height="8" fill="none" stroke="#444"></rect>
+  <text x="88" y="103" font-family="monospace" font-size="6" fill="#ccc">2-3 ori pe săptămână</text>
+  <text x="260" y="103" text-anchor="end" font-family="monospace" font-size="6" fill="#888">31%</text>
+
+  <rect x="70" y="110" width="200" height="16" fill="#141414" stroke="#262626"></rect>
+  <rect x="74" y="114" width="8" height="8" fill="none" stroke="#444"></rect>
+  <text x="88" y="121" font-family="monospace" font-size="6" fill="#ccc">Săptămânal</text>
+  <text x="260" y="121" text-anchor="end" font-family="monospace" font-size="6" fill="#888">18%</text>
+
+  <rect x="70" y="128" width="200" height="16" fill="#141414" stroke="#262626"></rect>
+  <rect x="74" y="132" width="8" height="8" fill="none" stroke="#444"></rect>
+  <text x="88" y="139" font-family="monospace" font-size="6" fill="#ccc">Rar / niciodată</text>
+  <text x="260" y="139" text-anchor="end" font-family="monospace" font-size="6" fill="#888">9%</text>
+
+  
+  <rect x="70" y="156" width="200" height="32" fill="#0f0f0f" stroke="#1f1f1f"></rect>
+  <text x="78" y="166" font-family="monospace" font-size="5" fill="#666">RĂSPUNSURI ÎN TIMP REAL</text>
+  <text x="78" y="180" font-family="&#39;Open Sans&#39;, sans-serif" font-weight="700" font-size="13" fill="#fff">1.284</text>
+  <text x="115" y="180" font-family="monospace" font-size="6" fill="#FF4931">↑ 23/min</text>
+  <text x="200" y="180" font-family="monospace" font-size="6" fill="#666">14 țări</text>
+</svg>

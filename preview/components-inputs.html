@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="_card.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+<style>
+  .field { font-family:'Open Sans',sans-serif;background:transparent;border:none;border-bottom:1px solid rgba(255,255,255,0.4);color:#fff;padding:10px 0;font-size:16px;outline:none;width:100%;transition:border-color 200ms }
+  .field:focus { border-color:#FF4931 }
+  .field::placeholder { color:#777 }
+  .lbl { font-family:'Open Sans',sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.16em;color:#FF4931 }
+</style>
+</head>
+<body>
+<div class="card dark" style="gap:16px">
+  <div class="label-eyebrow">Form inputs · underline style</div>
+  <div style="display:flex;gap:24px">
+    <div style="flex:1;display:flex;flex-direction:column;gap:6px">
+      <span class="lbl">Name</span>
+      <input class="field" placeholder="Alexandru Dan">
+    </div>
+    <div style="flex:1;display:flex;flex-direction:column;gap:6px">
+      <span class="lbl">Email</span>
+      <input class="field" placeholder="alex@tvl.tech" value="alex@tvl.tech" style="border-color:#FF4931">
+    </div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:6px">
+    <span class="lbl">Project brief</span>
+    <input class="field" placeholder="Tell us what you'd like to build…">
+  </div>
+</div>
+</body></html>
