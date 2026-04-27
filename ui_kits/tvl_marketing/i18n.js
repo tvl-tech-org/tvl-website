@@ -12,7 +12,7 @@
 
       // Hero
       'hero.kicker': 'Software custom · AI · Blockchain',
-      'hero.subtitle': 'TVL Tech este un studio de software ce lucrează la granița între AI, blockchain și sisteme distribuite. Nu livrăm template-uri — construim sistemul de care afacerea ta chiar are nevoie.',
+      'hero.subtitle': 'TVL Tech este un studio de software ce lucrează la granița între AI, blockchain și sisteme distribuite. Nu livrăm soluții generice — construim sistemul de care afacerea ta chiar are nevoie.',
       'hero.cta_primary': 'Spune-ne problema ta',
       'hero.cta_secondary': 'Vezi proiectele noastre',
       'hero.tagline_motto': 'S E E   T H E   U N S E E N',
@@ -93,8 +93,8 @@
 
       'pr.p2.sector': 'SaaS · Market Research',
       'pr.p2.title': 'BrainActive — cercetare de piață reinventată cu AI',
-      'pr.p2.problem': 'Studiile de piață durează săptămâni: brief, scriere chestionar, distribuție, colectare date. Un proces în care fiecare pas e bottleneck.',
-      'pr.p2.solution': 'SaaS cu un asistent AI ("Brainy") care primește brief-ul, generează automat chestionarul optimizat pentru obiectivele studiului, și-l distribuie global către respondenți reali. Construit în Node.js + Next.js, integrat cu GPT-4 prin Azure și Function Calling pentru sincronizare în timp real.',
+      'pr.p2.problem': 'Studiile de piață durează săptămâni: specificație, scriere chestionar, distribuție, colectare date. Un proces în care fiecare pas e un blocaj.',
+      'pr.p2.solution': 'SaaS cu un asistent AI ("Brainy") care primește descrierea, generează automat chestionarul optimizat pentru obiectivele studiului, și-l distribuie global către respondenți reali. Construit în Node.js + Next.js, integrat cu GPT-4 prin Azure și Function Calling pentru sincronizare în timp real.',
 
       'pr.p3.sector': 'Enterprise · Cloud',
       'pr.p3.title': 'Platformă cloud pentru distribuție de licențe software',
@@ -121,7 +121,7 @@
       'ap.r1.headline': 'Nu vindem AI dacă nu e răspunsul.',
       'ap.r1.detail': 'Jumătate din proiectele cu care ne contactează clienții nu au nevoie de AI. Le spunem. Construim ce trebuie, nu ce sună bine la board.',
       'ap.r2.headline': 'Nu facem outsourcing ascuns.',
-      'ap.r2.detail': 'Echipa pe care o vezi la kickoff e echipa care livrează. Fără freelanceri necunoscuți, fără sub-contractori în alt fus orar care apar pe Slack.',
+      'ap.r2.detail': 'Echipa pe care o vezi la prima ședință e echipa care livrează. Fără freelanceri necunoscuți, fără sub-contractori în alt fus orar care apar pe Slack.',
       'ap.r3.headline': 'Nu construim sisteme pe care doar noi le putem atinge.',
       'ap.r3.detail': 'Repository, infrastructură, credențiale — totul pe numele tău, din ziua unu. Cod documentat, decizii explicate, oricine din echipa ta poate prelua. Dacă mâine mergem mai departe fiecare pe drumul lui, sistemul rămâne în picioare.',
       'ap.r4.headline': 'Nu livrăm PoC-uri care mor.',
@@ -146,7 +146,7 @@
       'tm.title.a': 'Lăsăm proiectele',
       'tm.title.b': 'să',
       'tm.title.c': 'vorbească.',
-      'tm.q1.quote': 'TVL ne-a reconstruit pipeline-ul de detecție a defectelor în opt săptămâni. Rata de rebut a scăzut cu o treime în prima lună.',
+      'tm.q1.quote': 'TVL ne-a reconstruit fluxul de detecție a defectelor în opt săptămâni. Rata de rebut a scăzut cu o treime în prima lună.',
       'tm.q1.role': 'Director Operațiuni',
       'tm.q2.quote': 'Nu ne-au vândut un buzzword. Au pus întrebări două săptămâni, apoi au livrat exact ce aveam nevoie.',
       'tm.q2.role': 'CTO',
@@ -200,7 +200,7 @@
       'modal.f.email.ph': 'alex@compania-ta.ro',
       'modal.f.brief': 'Ce încerci să rezolvi?',
       'modal.f.brief.ph': 'Câteva propoziții sunt suficiente.',
-      'modal.f.submit': 'Trimite briefingul',
+      'modal.f.submit': 'Trimite cererea',
       'modal.done.title': 'Am primit.',
       'modal.done.body': 'Răspundem într-o zi lucrătoare, {name}.',
       'modal.done.greet': 'salut',
