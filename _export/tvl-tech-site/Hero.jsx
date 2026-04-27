@@ -74,7 +74,7 @@ function Hero({ onCtaClick, taglineId = 'cear-vorbit', squares = {} }) {
       <div style={{ position: 'relative', zIndex: 2, maxWidth: 1100 }}>
         <h1 style={{
           fontFamily: "'Open Sans', sans-serif",
-          fontSize: 'clamp(48px, 7vw, 112px)',
+          fontSize: 'clamp(40px, 5.5vw, 88px)',
           lineHeight: 0.95,
           textTransform: 'uppercase',
           letterSpacing: '-0.005em',
