@@ -40,6 +40,9 @@
       'tag.cear-altfel.l1': 'Ce-ar fi',
       'tag.cear-altfel.l2': 'dacă ar fi',
       'tag.cear-altfel.l3': '[orange]altfel?[/orange]',
+      'tag.cear-ajuta.l1': 'Ce-ar fi dacă',
+      'tag.cear-ajuta.l2': 'software-ul te-ar',
+      'tag.cear-ajuta.l3': '[orange]ajuta, nu încurca?[/orange]',
 
       // ProblemSolution
       'ps.kicker': 'Ce facem',
@@ -240,6 +243,9 @@
       'tag.cear-altfel.l1': 'What if',
       'tag.cear-altfel.l2': 'it were',
       'tag.cear-altfel.l3': '[orange]different?[/orange]',
+      'tag.cear-ajuta.l1': 'What if',
+      'tag.cear-ajuta.l2': 'software',
+      'tag.cear-ajuta.l3': '[orange]helped, not hurt?[/orange]',
 
       // ProblemSolution
       'ps.kicker': 'What we do',

@@ -11,7 +11,7 @@ function App() {
       <Header onCtaClick={open} />
       <Hero
         onCtaClick={open}
-        taglineId="cear-vorbit"
+        taglineId="cear-ajuta"
         squares={{
           enabled: true,
           density: 28,

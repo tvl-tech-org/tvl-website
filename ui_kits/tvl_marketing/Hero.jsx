@@ -1,7 +1,7 @@
 // Hero.jsx — i18n
 const HERO_TAGLINE_IDS = [
   'cear-functiona', 'cear-existat', 'cear-simplu', 'cear-automat',
-  'cear-vorbit', 'cear-incepe', 'cear-altfel',
+  'cear-vorbit', 'cear-incepe', 'cear-altfel', 'cear-ajuta',
 ];
 
 function renderTaglineLine(line, key) {
