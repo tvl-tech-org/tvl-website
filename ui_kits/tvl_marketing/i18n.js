@@ -47,8 +47,8 @@
       // ProblemSolution
       'ps.kicker': 'Ce facem',
       'ps.title.a': 'Fiecare produs',
-      'ps.title.b': 'începe cu o',
-      'ps.title.c': 'problemă.',
+      'ps.title.b': 'începe cu o problemă',
+      'ps.title.c': 'de rezolvat',
       'ps.problema': 'Problema',
       'ps.solutia': 'Cum o rezolvăm',
 
@@ -250,8 +250,8 @@
       // ProblemSolution
       'ps.kicker': 'What we do',
       'ps.title.a': 'Every product',
-      'ps.title.b': 'starts with a',
-      'ps.title.c': 'problem.',
+      'ps.title.b': 'starts with a problem',
+      'ps.title.c': 'to solve',
       'ps.problema': 'Problem',
       'ps.solutia': 'How we solve it',
 

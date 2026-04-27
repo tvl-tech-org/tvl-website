@@ -30,7 +30,7 @@ function ProblemSolution() {
                 textTransform: 'uppercase',
                 margin: 0, maxWidth: 880,
               }}>
-                {t('ps.title.a')}<br/>{t('ps.title.b')} <span style={{ color: '#FF4931' }}>{t('ps.title.c')}</span>
+                {t('ps.title.a')}<br/>{t('ps.title.b')}<br/><span style={{ color: '#FF4931' }}>{t('ps.title.c')}</span>
               </h2>
             </div>
           </div>
