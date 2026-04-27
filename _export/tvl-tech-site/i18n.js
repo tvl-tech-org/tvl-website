@@ -143,9 +143,9 @@
 
       // Testimonials
       'tm.kicker': 'Ce spun clienții noștri',
-      'tm.title.a': 'Lăsăm proiectele',
-      'tm.title.b': 'să',
-      'tm.title.c': 'vorbească.',
+      'tm.title.a': 'Câțiva',
+      'tm.title.b': 'dintre',
+      'tm.title.c': 'ei.',
       'tm.q1.quote': 'TVL ne-a reconstruit fluxul de detecție a defectelor în opt săptămâni. Rata de rebut a scăzut cu o treime în prima lună.',
       'tm.q1.role': 'Director Operațiuni',
       'tm.q2.quote': 'Nu ne-au vândut un buzzword. Au pus întrebări două săptămâni, apoi au livrat exact ce aveam nevoie.',
@@ -345,9 +345,9 @@
 
       // Testimonials
       'tm.kicker': 'What our clients say',
-      'tm.title.a': 'We let the projects',
-      'tm.title.b': '',
-      'tm.title.c': 'speak.',
+      'tm.title.a': 'A few',
+      'tm.title.b': 'of',
+      'tm.title.c': 'them.',
       'tm.q1.quote': 'TVL rebuilt our defect-detection pipeline in eight weeks. Scrap rate dropped by a third in the first month.',
       'tm.q1.role': 'Operations Director',
       'tm.q2.quote': 'They didn\u2019t sell us a buzzword. They asked questions for two weeks, then delivered exactly what we needed.',
