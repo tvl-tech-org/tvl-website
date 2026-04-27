@@ -139,7 +139,7 @@
       'proc.s2.title': 'Construim',
       'proc.s2.body': 'O echipă multidisciplinară — ingineri, designeri, ML scientists — livrează în iterații scurte pe care le poți vedea și folosi imediat.',
       'proc.s3.title': 'Livrăm',
-      'proc.s3.body': 'Îți predăm sistemul, documentația și echipa care l-a construit. Sau rămânem alături. Tu decizi.',
+      'proc.s3.body': 'Îți predăm sistemul și documentația. Sau rămânem alături — echipa care l-a construit, la un mesaj distanță. Tu decizi.',
 
       // Testimonials
       'tm.kicker': 'Ce spun clienții noștri',
@@ -341,7 +341,7 @@
       'proc.s2.title': 'We build',
       'proc.s2.body': 'A multidisciplinary team — engineers, designers, ML scientists — ships in short iterations you can see and use immediately.',
       'proc.s3.title': 'We hand off',
-      'proc.s3.body': 'We hand over the system, the documentation and the team that built it. Or we stay on. You decide.',
+      'proc.s3.body': 'We hand over the system and the documentation. Or we stay on — the team that built it, one message away. You decide.',
 
       // Testimonials
       'tm.kicker': 'What our clients say',
