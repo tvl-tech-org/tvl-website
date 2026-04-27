@@ -22,7 +22,7 @@ function Header({ onCtaClick }) {
   return (
     <header style={{
       position: 'sticky', top: 0, zIndex: 50,
-      background: 'rgba(0,0,0,0.85)', backdropFilter: 'blur(12px)',
+      background: 'rgba(0,0,0,0.94)',
       borderBottom: '1px solid rgba(255,255,255,0.08)',
       padding: '18px 48px',
       display: 'flex', alignItems: 'center', justifyContent: 'space-between',
